@@ -1,0 +1,112 @@
+/* Here goes your CSS */
+
+body {
+  background-color: #BFD7EA;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+  color: grey;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7em;
+}
+
+
+h1 {
+    color: #0B3954;
+    font-size: 37px;
+}
+
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #197BBD;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.btn-red:hover {
+    background-color: #C61414;
+    color: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+#img-profile {
+    border: 3px solid #cccccc;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 40px;
+    font-size: 35px;
+}
+
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+}
+
+
+#movies {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+
+#movies img {
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
