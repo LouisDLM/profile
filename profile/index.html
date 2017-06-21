@@ -3,23 +3,40 @@
     <meta charset="utf-8">
     <title>Basic info</title>
 
-
     <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
-
-
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <!-- Fontawesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#help">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-    <!-- Here goes your content -->
-  <div class="container">
-    <div class="card text-center">
+    <div id="content">
+      <!-- your page content here -->
+    <div class="container">
+    <div class="card text-center" id="summary">
 
       <img src="images/me.jpg" style="width:130px;" alt="Louis de La Marnierre" id="img-profile" class="img-circle">
       <h1>Louis de La Marnierre</h1>
@@ -52,11 +69,11 @@
 
     </div>
 
-    <div class="card text-center">
+    <div class="card text-center"  id = "movies">
 
       <h2>My favorite movies</h2>
 
-      <table id = "movies">
+      <table>
         <tbody>
           <tr>
             <td>
@@ -68,20 +85,26 @@
             </td>
           </tr>
           <tr>
-            <td><img src="images/fatal.jpeg" alt="Fatal"></td>
-            <td><h3>Fatal</h3>
-            <p>Le film conte l'histoire de Fatal Bazooka, un rappeur bling bling à succès, jusqu'au jour où un chanteur d'« électro-bio », Chris Prolls, vient lui voler la vedette et lui prend sa précieuse place de « numero Uno ».</p></td>
+            <td>
+              <img src="images/fatal.jpeg" alt="Fatal"></td>
+            <td>
+              <h3>Fatal</h3>
+                <p>Le film conte l'histoire de Fatal Bazooka, un rappeur bling bling à succès, jusqu'au jour où un chanteur d'« électro-bio », Chris Prolls, vient lui voler la vedette et lui prend sa précieuse place de « numero Uno ».</p>
+            </td>
           </tr>
           <tr>
-            <td><img src="images/godfather.jpeg" alt="Godfather"></td>
-            <td><h3>Godfather</h3>
-            <p>In 1945, at his daughter Connie's wedding, Vito Corleone hears requests in his role as the Godfather, the Don of a New York crime family. Vito's youngest son, Michael, who was a Marine during World War II, introduces his girlfriend, Kay Adams, to his family at the reception.</p></td>
+            <td>
+              <img src="images/godfather.jpeg" alt="Godfather"></td>
+            <td>
+              <h3>The Godfather</h3>
+                <p>In 1945, at his daughter Connie's wedding, Vito Corleone hears requests in his role as the Godfather, the Don of a New York crime family. Vito's youngest son, Michael, who was a Marine during World War II, introduces his girlfriend, Kay Adams, to his family at the reception.</p>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <div class="card text-center">
+    <div class="card text-center" id="help">
       <ul class="list-inline">
         <li>
           <a href="#">
@@ -101,5 +124,6 @@
       </ul>
     </div>
   </div>
+    </div>
   </body>
 </html>
