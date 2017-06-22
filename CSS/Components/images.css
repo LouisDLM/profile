@@ -1,0 +1,13 @@
+.img-circle {
+    border-radius: 50%;
+}
+
+
+#img-profile {
+    border: 3px solid #cccccc;
+}
+
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+}

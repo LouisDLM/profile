@@ -1,0 +1,23 @@
+.header {
+    background-color: #fff;
+    height: 70px;
+    left: 0;
+    line-height: 70px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+
+.menu {
+    display: block;
+    text-align: center;
+    flex: 1 0 auto;
+    word-spacing: 40px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+  color: #C61414;
+}
+

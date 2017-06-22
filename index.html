@@ -10,68 +10,43 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
-    <div id="sidebar">
-      <ul>
-        <li>
-          <a href="#summary">
-            <i class="fa fa-info-circle"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#movies">
-            <i class="fa fa-file-video-o"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#help">
-            <i class="fa fa-life-ring"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <header class="header">
+      <div id="header-icon">
+      <nav class="menu">
+        <a href="#intro">Presentation</a>
+        <a href="#skill">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
     <div id="content">
       <!-- your page content here -->
     <div class="container">
-    <div class="card text-center" id="summary">
+    <div class="card text-center" id="intro">
 
       <img src="images/me.jpg" style="width:130px;" alt="Louis de La Marnierre" id="img-profile" class="img-circle">
       <h1>Louis de La Marnierre</h1>
 
-      <h2>Student @ LeWagon</h2>
+      <h2>Paris, France</h2>
 
       <p>After working for a year in Paris, I decided to enhance my technical skills and <strong>learn how to code.</strong></p>
 
-      <a href="https://www.linkedin.com/in/louis-de-la-marnierre-a229a6a8/" target="_blank" class="btn-red">Check me out!</a>
+    </div>
+
+    <div class="card text-center" id = "skill">
+      <h2>Skills</h2>
+
 
     </div>
 
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.facebook.com/louis.delamarnierre">
-            <i class="fa fa-facebook" aria-hidden="true"><br>Facebook</i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/?lang=en">
-            <i class="fa fa-twitter" aria-hidden="true"><br>Twitter</i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/louis-de-la-marnierre-a229a6a8/">  <i class="fa fa-linkedin" aria-hidden="true"><br>Linkedin</i>
-          </a>
-        </li>
-      </ul>
+    <div class="card text-center"  id = "experience">
 
-    </div>
-
-    <div class="card text-center"  id = "movies">
-
-      <h2>My favorite movies</h2>
+      <h2>Experience</h2>
 
       <table>
         <tbody>
@@ -104,24 +79,11 @@
       </table>
     </div>
 
-    <div class="card text-center" id="help">
-      <ul class="list-inline">
-        <li>
+    <div class="card text-center" id="contact">
+    <a href="https://www.linkedin.com/in/louis-de-la-marnierre-a229a6a8/" target="_blank" class="btn-red">Check out my Linkedin profile!</a>
           <a href="#">
-            <i class="fa fa-heart" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
           </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-share" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-star" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
     </div>
